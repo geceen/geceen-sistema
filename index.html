@@ -3793,6 +3793,7 @@ function removeHigItem(i){
   calcSim();
 }
 
+  
 function updateHigItem(i,field,el){
   if(!simHigItems[i])return;
   if(field==="qty")simHigItems[i].qty=Math.max(1,parseInt(el.value)||1);
